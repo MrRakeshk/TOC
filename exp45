@@ -1,0 +1,143 @@
+Automaton Simulator, v1.0
+turing {
+	alphabet {abcd*_}
+	state {
+		initial {yes}
+		coord {81 175}
+	}
+	state {
+		coord {284 86}
+	}
+	state {
+		coord {442 110}
+	}
+	state {
+		coord {587 169}
+	}
+	state {
+		coord {391 353}
+	}
+	state {
+		coord {212 284}
+	}
+	state {
+		final {yes}
+		coord {429 230}
+	}
+	state {
+		coord {557 377}
+	}
+	edge 0 1 {
+		transits {a}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	edge 1 1 {
+		transits {a}
+		offset {1.8516340514160996}
+		direction {R}
+		output {a}
+	}
+	edge 1 1 {
+		transits {b}
+		offset {-1.7818896600176433}
+		direction {R}
+		output {b}
+	}
+	edge 1 2 {
+		transits {_}
+		offset {1.0235119458074595}
+		direction {L}
+		output {_}
+	}
+	edge 2 3 {
+		transits {a}
+		offset {0.5235987755982988}
+		direction {L}
+		output {_}
+	}
+	edge 3 3 {
+		transits {a}
+		offset {0.6781193077490456}
+		direction {L}
+		output {a}
+	}
+	edge 3 3 {
+		transits {b}
+		offset {-1.121536214183016}
+		direction {L}
+		output {b}
+	}
+	edge 3 0 {
+		transits {c}
+		offset {-1.1803561561992417}
+		direction {R}
+		output {c}
+	}
+	edge 0 5 {
+		transits {b}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	edge 5 4 {
+		transits {_}
+		offset {0.5235987755982988}
+		direction {L}
+		output {_}
+	}
+	edge 5 5 {
+		transits {a}
+		offset {-1.2760662215855192}
+		direction {R}
+		output {a}
+	}
+	edge 5 5 {
+		transits {b}
+		offset {1.044169055361146}
+		direction {R}
+		output {b}
+	}
+	edge 4 6 {
+		transits {c}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	edge 2 6 {
+		transits {c}
+		offset {1.143357777526111}
+		direction {R}
+		output {c}
+	}
+	edge 4 7 {
+		transits {b}
+		offset {0.5235987755982988}
+		direction {L}
+		output {_}
+	}
+	edge 7 7 {
+		transits {a}
+		offset {1.16892567935444}
+		direction {L}
+		output {a}
+	}
+	edge 7 7 {
+		transits {b}
+		offset {-2.2051791472709854}
+		direction {L}
+		output {b}
+	}
+	edge 7 0 {
+		transits {c}
+		offset {1.1573290910954976}
+		direction {R}
+		output {c}
+	}
+	label {
+		text {question45}
+		font {SansSerif 12 -}
+		coord {775 75}
+	}
+}

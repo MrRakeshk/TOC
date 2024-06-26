@@ -1,0 +1,137 @@
+Automaton Simulator, v1.0
+turing {
+	alphabet {abcd*_}
+	state {
+		initial {yes}
+		coord {326 165}
+	}
+	state {
+		coord {556 109}
+	}
+	state {
+		coord {709 127}
+	}
+	state {
+		coord {993 107}
+	}
+	state {
+		coord {530 404}
+	}
+	state {
+		coord {749 456}
+	}
+	state {
+		coord {993 463}
+	}
+	state {
+		final {yes}
+		coord {1029 248}
+	}
+	edge 0 1 {
+		transits {a}
+		offset {0.6980195009290275}
+		direction {R}
+		output {c}
+	}
+	edge 1 1 {
+		transits {a}
+		offset {2.356194490192345}
+		direction {R}
+		output {a}
+	}
+	edge 1 1 {
+		transits {b}
+		offset {-1.7359450042095235}
+		direction {R}
+		output {b}
+	}
+	edge 1 2 {
+		transits {_}
+		offset {0.5235987755982988}
+		direction {L}
+		output {_}
+	}
+	edge 2 3 {
+		transits {a}
+		offset {0.5235987755982988}
+		direction {L}
+		output {_}
+	}
+	edge 3 3 {
+		transits {a}
+		offset {1.4501726582147938}
+		direction {L}
+		output {a}
+	}
+	edge 3 3 {
+		transits {b}
+		offset {-1.422946961536141}
+		direction {L}
+		output {b}
+	}
+	edge 3 0 {
+		transits {c}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	edge 0 4 {
+		transits {b}
+		offset {-0.8096458560453903}
+		direction {R}
+		output {c}
+	}
+	edge 4 4 {
+		transits {a}
+		offset {1.3177206746302943}
+		direction {R}
+		output {a}
+	}
+	edge 4 4 {
+		transits {b}
+		offset {-1.8669114726698615}
+		direction {R}
+		output {b}
+	}
+	edge 4 5 {
+		transits {_}
+		offset {-0.5681034262086622}
+		direction {L}
+		output {_}
+	}
+	edge 5 6 {
+		transits {b}
+		offset {-0.5345055907219257}
+		direction {L}
+		output {_}
+	}
+	edge 6 6 {
+		transits {b}
+		offset {1.2288464998171864}
+		direction {L}
+		output {b}
+	}
+	edge 6 6 {
+		transits {a}
+		offset {-1.3218336210021795}
+		direction {L}
+		output {a}
+	}
+	edge 6 0 {
+		transits {c}
+		offset {0.16050997434494452}
+		direction {R}
+		output {c}
+	}
+	edge 0 7 {
+		transits {_}
+		offset {-0.39938228132382775}
+		direction {R}
+		output {_}
+	}
+	label {
+		text {question 50}
+		font {SansSerif 12 -}
+		coord {1124 122}
+	}
+}
